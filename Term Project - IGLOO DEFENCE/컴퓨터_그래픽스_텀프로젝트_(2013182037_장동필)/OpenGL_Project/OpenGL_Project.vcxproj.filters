@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\0.Scenes">
+      <UniqueIdentifier>{41d2ef4c-7f4c-498a-a682-2564733cbff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.Camera">
+      <UniqueIdentifier>{06a59961-4a03-4a45-9564-43d52893b8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Objects">
+      <UniqueIdentifier>{0a8cd9f3-c382-4779-b52a-2295a1278027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Objects\0.Default_Object">
+      <UniqueIdentifier>{20c0db17-a80f-45b0-8072-4ae6a8f43c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Objects\0.Default_Object\Calculate">
+      <UniqueIdentifier>{53dcb1de-c68b-4dc0-891a-b1187175391b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Objects\1.Character">
+      <UniqueIdentifier>{0f1a6c4e-25ee-4f07-be08-b24856b7cdfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Objects\2.Obstacle">
+      <UniqueIdentifier>{1c133df0-ee26-47e7-b3ab-548dfbd0bc34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.UI">
+      <UniqueIdentifier>{2dd7cd44-c393-4c4a-97d1-536350a82e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Objects\3.Light">
+      <UniqueIdentifier>{780ea2eb-f426-4f64-a58f-f7deee1a51bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Objects\4.Particle">
+      <UniqueIdentifier>{bfdce4e1-fc67-42fa-b316-33516606ae3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Objects\5.Projectile">
+      <UniqueIdentifier>{25874983-0bb1-40d1-98c0-4dc8efaa6b7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>소스 파일\3.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\1.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Light_Object.cpp">
+      <Filter>소스 파일\2.Objects\3.Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\2.Objects\0.Default_Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GL_Main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Scene.h">
+      <Filter>소스 파일\0.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\0.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="InGame_Scene.h">
+      <Filter>소스 파일\0.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>소스 파일\3.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\1.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Light_Object.h">
+      <Filter>소스 파일\2.Objects\3.Light</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>소스 파일\2.Objects\0.Default_Object\Calculate</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>소스 파일\2.Objects\0.Default_Object\Calculate</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\2.Objects\0.Default_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>소스 파일\2.Objects\2.Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>소스 파일\2.Objects\1.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_Object.h">
+      <Filter>소스 파일\2.Objects\4.Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>소스 파일\2.Objects\2.Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>소스 파일\2.Objects\2.Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="Fence.h">
+      <Filter>소스 파일\2.Objects\2.Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="Snows.h">
+      <Filter>소스 파일\2.Objects\2.Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="Igloo.h">
+      <Filter>소스 파일\2.Objects\2.Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="Snow_Ball.h">
+      <Filter>소스 파일\2.Objects\5.Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Small_Enemy.h">
+      <Filter>소스 파일\2.Objects\1.Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
